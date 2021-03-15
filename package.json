@@ -1,0 +1,36 @@
+{
+  "name": "saw-ui",
+  "version": "1.0.0",
+  "description": "ui for vue",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config build/webpack.config.base.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.config.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saku117/saw-ui.git"
+  },
+  "author": "saku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saku117/saw-ui/issues"
+  },
+  "homepage": "https://github.com/Saku117/saw-ui#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "prettier": "^2.2.1",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.25.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
